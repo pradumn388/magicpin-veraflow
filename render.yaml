@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: magicpin-veraflow
+    runtime: docker
+    plan: free
+    healthCheckPath: /v1/healthz
+    autoDeploy: true
